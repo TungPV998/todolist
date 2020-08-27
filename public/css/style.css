@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+i.fas.fa-trash {cursor: pointer;}
+
+.content ul li .item span {
+    /* width: 75%; */
+    /* text-decoration: line-through; */
+    flex-basis: 75%;
+    /* color: gray; */
+}
+
+.content ul li .item span.line-through {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.content ul li .item input[type="checkbox"] {
+    flex-basis: 15%;
+    height: 24px;
+
+}
+
+.content ul li .item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content ul li {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.content ul li.line-through {
+
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.wrap h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    font-family: -webkit-pictograph;
+    text-align: center;
+}
+
+.wrap {
+    width: 600px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 17px;
+}
+
+

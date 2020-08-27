@@ -1,0 +1,19 @@
+
+D
+public/css/style.css,1\e\1ef0e38ec90181a17549647e1a67072ac5d804da
+Q
+!resources/views/welcome.blade.php,0\c\0c96dd63e07fb2e889aeaea5cbabd89d0d09f1fb
+>
+routes/web.php,6\b\6b9a783d9b43fee50fd28f56dbd1856d2608f305
+4
+.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+B
+public/js/index.js,a\f\afb58c06e2a554025102c6e1f44913a2e1777003
+O
+resources/views/index.blade.php,7\2\7285af984716ae46f13e2fe2f49a6044922e65e7
+B
+routes/console.php,d\d\dd5f3b20dd4fb12b39d7a3a0a5e1160fcceeb8c5
+W
+'app/Http/Controllers/HomeController.php,9\c\9c8530715f6b05b710e3fa767bada1e4d0297e47
+\
+,resources/views/component/listTask.blade.php,1\b\1ba868c0bbc1e23f2187740d3a4955e3dac75115
