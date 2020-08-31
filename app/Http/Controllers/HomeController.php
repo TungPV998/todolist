@@ -10,18 +10,13 @@ class HomeController extends Controller
 {
     public function index(){
         $data = ListTask::all();
-        //$data = DB::table('list_tasks')->latest()->first();
-        $html = view("component.listTask",compact('data'))->render();
-        return response()->json([
-            'html' =>$html
-        ]);
-       // return response()->json(["data"=>$data]);
+       return view("index",compact("data"));
     }
     public function create(Request $request){
         $task = new ListTask();
         $task->content = $request->task;
         $task->save();
-        return response()->json(['code'=>200, 'message'=>'THEM MOI THANH CONG']);
+        return response()->json(['code'=>200, 'message'=>'THEM MOI THANH CONG','task'=>$task]);
     }
     public function delete(Request $request,$id){
 

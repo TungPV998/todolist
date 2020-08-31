@@ -14,28 +14,18 @@ $(window).on('load', function() {
             url:url,
             data:{task:content},
             success:function(data){
-                console.log(data);
-                loadData();
-                //$(".content ul").html(data.html);
-              // alert(data.message);
-               //window.location.reload();
+             var html = " ";
+             html+= "<li><div class='item'>"
+            html+= "<span "+(data.task.id == 1 ? 'class = line-through' : '' ) +">"+data.task.content+"</span>";
+            html+= "<input type='checkbox' class='checkpass'"+(data.task.status == 1 ? ' checked' : '');
+            html+= "value='" +data.task.id + "' data-href='http://todolist.test/edit/"+data.task.id +"'>";
+            html+= "<a  onclick='confirm(Bạn có chắc là muốn xóa ?)' href='http://todolist.test/delete/"+data.task.id +"'><i class='fas fa-trash'></i></a></div></li>";
+            $("div.content ul").append(html);
            }
         });
 
     });
-    loadData = function(){
-        $.ajax({
-            type:'get',
-            url:url,
-            success:function(data){
-                console.log(data);
-                loadData();
-                //$(".content ul").html(data.html);
-                // alert(data.message);
-                //window.location.reload();
-            }
-        });
-    }
+
     $("#deleteItem").click(function(event){
         event.preventDefault();
         var url = $(this).attr("href");
@@ -49,8 +39,7 @@ $(window).on('load', function() {
             url:url,
             success:function(data){
                 if(data.code == 200){
-                    window.location.reload();
-                    //alert("OLK");
+                   alert("Xóa thành công");
                 }
                 else{
                     alert("Xoa That Bai");

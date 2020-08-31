@@ -6,8 +6,8 @@
                    id="check{{$item["id"]}}" {{ $item['status'] == 1 ? "checked" : "" }}
                    value="{{$item["id"]}}" data-href="{{ route("home.edit",["id"=>$item["id"]]) }}">
             <a id="deleteItem" onclick="alert('Ban co chac la muon xoa ?')" href="{{route('home.delete',["id"=>$item["id"]]) }}">
-                <i class="fas fa-trash"></i>
-            </a>
-        </div>
-    </li>
+                <i class="fas fa-trash"></i> </a></div></li>
+
+
+
 @endforeach

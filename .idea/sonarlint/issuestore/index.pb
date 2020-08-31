@@ -17,3 +17,5 @@ W
 'app/Http/Controllers/HomeController.php,9\c\9c8530715f6b05b710e3fa767bada1e4d0297e47
 \
 ,resources/views/component/listTask.blade.php,1\b\1ba868c0bbc1e23f2187740d3a4955e3dac75115
+F
+app/Model/ListTask.php,0\6\0643f963b498136208b37c400d61662843246ecf

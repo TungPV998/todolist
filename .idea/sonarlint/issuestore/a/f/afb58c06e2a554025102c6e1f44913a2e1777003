@@ -1,7 +1,6 @@
 
-zjavascript:S2703B"WAdd the "let", "const" or "var" keyword to this declaration of "i" to make it explicit.(û¿ØÖ8õß®íÂ.
-ajavascript:S1854D"9Remove this useless assignment to local variable "status"(…’ÿ®øÿÿÿÿ8õß®íÂ.
-hjavascript:UnusedVariableD"7Remove the declaration of the unused 'status' variable.(…’ÿ®øÿÿÿÿ8õß®íÂ.
-Hjavascript:S1442U" Remove this usage of alert(...).(İŸì–úÿÿÿÿ8õß®íÂ.
-Hjavascript:S14428" Remove this usage of alert(...).(”“‹ßúÿÿÿÿ8õß®íÂ.
-javascript:S2703"^Add the "let", "const" or "var" keyword to this declaration of "loadData" to make it explicit.(©É¥ï8ÿØ«ôÂ.
+Hjavascript:S14422" Remove this usage of alert(...).(”“‹ßúÿÿÿÿ8õß®íÂ.
+ajavascript:S1854>"9Remove this useless assignment to local variable "status"(…’ÿ®øÿÿÿÿ8õß®íÂ.
+hjavascript:UnusedVariable>"7Remove the declaration of the unused 'status' variable.(…’ÿ®øÿÿÿÿ8õß®íÂ.
+zjavascript:S2703<"WAdd the "let", "const" or "var" keyword to this declaration of "i" to make it explicit.(û¿ØÖ8õß®íÂ.
+Hjavascript:S1442O" Remove this usage of alert(...).(İŸì–úÿÿÿÿ8õß®íÂ.
